@@ -38,6 +38,7 @@ CREATE TABLE Customers (
     LastName NVARCHAR(50) NOT NULL,
     Email NVARCHAR(100) UNIQUE,
     Phone NVARCHAR(20),
+    extension varchar (3),
     Address NVARCHAR(200)
 );
 
