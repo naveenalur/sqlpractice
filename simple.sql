@@ -17,6 +17,7 @@ CREATE TABLE Suppliers (
     CompanyName NVARCHAR(100) NOT NULL,
     ContactName NVARCHAR(100),
     Phone NVARCHAR(20),
+    address varchar(100),
     Email NVARCHAR(100)
 );
 
